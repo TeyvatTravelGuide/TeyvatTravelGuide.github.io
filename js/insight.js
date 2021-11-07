@@ -34,14 +34,14 @@
                 $searchItems = array.map(function (item) {
                     // Use config.root instead of permalink to fix url issue
                     if (CONFIG.ROOT_URL == "/") {
-                        /*if (item.text == undefined) {
+                        if (item.text == undefined) {
                             return searchItem('file', item.title, null, null, item.path);
-                        }*/
+                        }
                         return searchItem('file', item.title, null, item.text.slice(0, 150), item.path);
                     }
-                    /*if (item.text == undefined) {
+                    if (item.text == undefined) {
                         return searchItem('file', item.title, null, null, CONFIG.ROOT_URL + item.path);
-                    }*/
+                    }
                     return searchItem('file', item.title, null, item.text.slice(0, 150), CONFIG.ROOT_URL + item.path);
                 });
                 break;
