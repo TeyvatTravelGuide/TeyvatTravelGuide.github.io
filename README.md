@@ -1,0 +1,2 @@
+# Genshin.github.io
+TeyvatTravelGuide
