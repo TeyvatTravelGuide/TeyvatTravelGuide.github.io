@@ -1,0 +1,3 @@
+# Welcome to Teyvet Travel Guide
+User-agent: *
+Disallow: *
